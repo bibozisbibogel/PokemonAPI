@@ -27,5 +27,5 @@ if pokemon_info:
     for ability in pokemon_info["abilities"]:
         json_format = json.dumps(ability)
         print(json_format)
-else:
+else: # Not really needed since we made the line 14, but just in case
     print(f"Failed to retrieve data about {pokemon_name}!")
